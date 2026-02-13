@@ -1,0 +1,17 @@
+**Executive Summary**
+
+This analysis investigates how Bitcoin market sentiment (Fear vs Greed) influences trader behavior and profitability on Hyperliquid.
+
+After aligning trade-level data with daily sentiment classification, we engineered behavioral metrics including daily PnL, win rate, leverage exposure, trade frequency, and long/short bias.
+
+We observe that:
+
+- Traders increase leverage and trade frequency during Greed days.
+
+- Profitability variance is significantly higher during Fear days.
+
+- High-leverage traders experience disproportionately large drawdowns in negative sentiment regimes.
+
+- Consistent traders outperform volatile traders regardless of sentiment.
+
+- Based on these findings, we propose sentiment-aware risk adjustment strategies, including leverage reduction during Fear periods and selective risk expansion for consistent traders during Greed phases.
